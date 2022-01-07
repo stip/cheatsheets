@@ -101,11 +101,27 @@ to get the source of a keymapping use
 
 | `<S-l>`  | go to next buffer 							 |
 | `<S-h>`  | go to previous buffer					 |
+|  `<M-1>` | go to buffer 1 |
+|  `<M-2>` | go to buffer 2 |
+| ... | ... |
+|  `<M-12>` | go to buffer 12 |
+| `<M-g><M-b>` | show letter for fast buffer switch in bufferline |
+| `<M-Left>` | cycle through buffers to the left |
+| `<M-Right>` | cycle through buffers to the right |
+| `<M-b>` | show list of buffers in Telescope |
 {: .-shortcuts}
 
 #### tabs
-| :newtab | open new tab ("collection of windows") 
+| :tabnew | open new tab ("collection of windows") 
 
 {: .-one-column}
+
+### toggle-term
+
+| Shortcut | Description                     |
+| -------- | ------------------------------- |
+| `<C-\>`  | toggle to nvim internal terminal |
+{: .-shortcuts}
+
 
 * [Xpath test bed](http://www.whitebeam.org/library/guide/TechNotes/xpathtestbed.rhtm) _(whitebeam.org)_
